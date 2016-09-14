@@ -1,0 +1,14 @@
+{
+  "name": "changers-web",
+  "version": "1.0.0",
+  "description": "The init version of changers first web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "changers"
+  ],
+  "author": "Patrick Hai",
+  "license": "ISC"
+}
