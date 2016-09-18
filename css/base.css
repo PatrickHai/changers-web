@@ -34,7 +34,19 @@ div#div1 > img {
   border:0;
 }
 
-.advD_bg{zoom:1; color:white; position:fixed; left:0; bottom:0; right:0; height:76px; background: rgba(0,0,0,0.4); background:!important; filter:Alpha(opacity=40);}
+.advD_bg{
+  zoom:1; 
+  color:white; 
+  position:fixed; 
+  left:0; 
+  bottom:0; 
+  right:0; 
+  height:76px; 
+  background: rgba(0,0,0,0.4); 
+  background:!important; 
+  filter:Alpha(opacity=40);
+}
+
 .advD{zoom:1; height: 76; width: 290px; margin: 0 auto;}
 .imgD{height: 58px; margin-top: 9px; float: left;}
 .conD{float: left; line-height: 28px; margin: 11px 0 0 12px;}
@@ -43,7 +55,7 @@ div#div1 > img {
 div.title {
   background-color:#F4F4F4;
   /*background-color: rgba(0,0,0,0.07); */
-  padding: 10%;
+  padding: 2%;
 }
 
 p {text-align:center;}
@@ -70,33 +82,35 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
   overflow:hidden;
 }
 
+.content {}
+
 .text-line1 {
-    position: relative;
+    position: absolute;
     left: 20%;
-    top: 30px;
+    top: 150px;
     text-align: center!important;
 }
 
 .text-line2 {
-    position: relative;
+    position: absolute;
     left: 20%;
-    top: 90px;
+    top: 220px;
     text-align: center!important;
     width: 50%;
 }
 
 .text-line3 {
-    position: relative;
+    position: absolute;
     left: 20%;
-    top: 140px;
+    top: 320px;
     text-align: center!important;
     width: 50%;
 }
 
 .text-line4 {
-    position: relative;
+    position: absolute;
     left: 20%;
-    top: 160px;
+    top: 400px;
     text-align: center!important;
     width: 50%;
 }
@@ -137,7 +151,7 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
 .category-text-mul {
   position: relative;
   left: 50px;
-  bottom:30px;
+  top: -25px;
   font-size:13px;
   text-align: left;
 }
@@ -146,19 +160,28 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
   top: 8px;
 }
 
+.down-2px {
+  top: 2px;
+}
+
 .b-logo {
     position: relative;
     text-align: center;
-    top: 310px;
+    top: 280px;
+    left: 40%;
     width: 100px;
-    right: 50px;
     height: 100px;
 }
 
 .code {
   position: relative;
-  top: 160px;
-  right:70px;
+  top: 140px;
+  left: 35%;
   font-size:25px;
   font-weight:900;
 }
+
+a:link { text-decoration: none;color: black}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;color: black} 
+a:visited { text-decoration: none;color: black}
