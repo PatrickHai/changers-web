@@ -1,4 +1,4 @@
-body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,form,input,textarea,select,td,th {
+body {
   margin:0;
   padding:0; 
   font-family:"黑体",Arial, Helvetica, sans-serif;
@@ -58,21 +58,42 @@ div.title {
   padding: 2%;
 }
 
-p {text-align:center;}
-p.h1 {font-size:20px;font-weight:900;margin: 10px 0 10px 0;}
-p.h2 {font-size:13px;}
-p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
+p {text-align:center; margin: 0 auto;}
+.h1 {font-size:20px;font-weight:900;margin: 10px 0 10px 0;}
+.h2 {font-size:13px;}
+.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
 
 .circle {
     width: 30px;
     height: 30px;
     background: #898989;
-    border-radius: 80px;
+    border-radius: 100px;
     text-align: center!important;
     vertical-align: middle;
-    float: left;
+    margin: 0 auto;
+    padding: 6px 10px;
+    color: rgba(255, 255, 255, 0.9);
 }
 
+/*.circle {
+    display: block;
+    background: #f4f4f4;
+    color: #333;
+    font-size: 14px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 4em;
+}*/
+
+.content{}
 .line{
   width:30px;
   height:2px;
@@ -82,47 +103,25 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
   overflow:hidden;
 }
 
-.content {}
-
-.text-line1 {
-    position: absolute;
-    left: 20%;
-    top: 150px;
-    text-align: center!important;
+.text-line {
+  text-align: center;
+  position: relative;
 }
 
-.text-line2 {
-    position: absolute;
-    left: 20%;
-    top: 220px;
-    text-align: center!important;
-    width: 50%;
+.top-10 {
+  top: 10px;
 }
-
-.text-line3 {
-    position: absolute;
-    left: 20%;
-    top: 320px;
-    text-align: center!important;
-    width: 50%;
+.top-40 {
+  top: 40px;
 }
-
-.text-line4 {
-    position: absolute;
-    left: 20%;
-    top: 400px;
-    text-align: center!important;
-    width: 50%;
+.top-80 {
+  top: 80px;
 }
-
-.text-white {
-    color: rgba(255, 255, 255, 0.9);
-    position: relative;
-    top: 20%;
+.top-120 {
+  top: 120px;
 }
-
-.pull-left {
-    float: left!important;
+.top-160 {
+  top: 160px;
 }
 
 .pull-right {
@@ -133,31 +132,31 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
     color: #F5F5F5;
     width: 100px;
     height: 30px;
-    float: left;
-    left: 40px;
-    position: relative;
     background-color: #B59652;
     border-radius: 5px;
     border: 0;
+    margin: 0 auto;
 }
 
 .category-text {
-  position: relative;
-  left: 20px;
   font-size:13px;
-  text-align: left;
+  margin: 0 auto;
 }
 
-.category-text-mul {
-  position: relative;
-  left: 50px;
-  top: -25px;
+.category-text1 {
   font-size:13px;
-  text-align: left;
+  margin: 0 9px;
 }
 
-.down-8px {
-  top: 8px;
+.category-text2 {
+  font-size:13px;
+  margin: 0 4px;
+}
+
+.wrap {
+  display:inline-block; 
+  width:200px;
+  position: relative;
 }
 
 .down-2px {
@@ -167,18 +166,19 @@ p.h3 {font-size:15px;font-weight:800;margin: 20px 0 10px 0;}
 .b-logo {
     position: relative;
     text-align: center;
+    margin: 0 auto;
     top: 280px;
-    left: 40%;
     width: 100px;
     height: 100px;
 }
 
 .code {
   position: relative;
-  top: 140px;
-  left: 35%;
+  top: 120px;
+  text-align: center!important;
   font-size:25px;
   font-weight:900;
+  margin: 0 auto;
 }
 
 a:link { text-decoration: none;color: black}
