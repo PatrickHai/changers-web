@@ -12,6 +12,8 @@
   "author": "Patrick Hai",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mermaid": "^6.0.0",
+    "mysql": "^2.11.1"
   }
 }
